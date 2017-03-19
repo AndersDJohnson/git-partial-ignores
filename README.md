@@ -40,8 +40,9 @@ const config = {
 
 ## Implementation
 
-Maybe wrap or alias `git` command with custom script that does a partial unstage before any `commit`.
-(Compatible with github/hub?)
+Maybe wrap or alias `git` command with custom script. Compatible with github/hub?
+
+E.g. `commit` would do a partial unstage first. Would this be non-trivial to implement? Might have to programmatically modify patches like the `e` mode of `git reset -p`.
 
 Suppress from `diff` by filtering output in a `grep`-like fashion, but supporting blocks.
 
