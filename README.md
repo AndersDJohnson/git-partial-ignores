@@ -42,4 +42,6 @@ const config = {
 
 Maybe wrap or alias `git` command with custom script that does a partial unstage before any `commit`.
 (Compatible with github/hub?)
-Not sure how to suppress from `diff` without backing up actual files and reverting, except maybe via `grep`.
+
+Suppress from `diff` by filtering output in a `grep`-like fashion, but supporting blocks.
+
